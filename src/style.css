@@ -94,3 +94,61 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Editor two-column layout (plain CSS, not Tailwind) */
+.editor-page {
+  display: flex;
+  min-height: 100vh;
+  gap: 0;
+}
+
+.editor-left {
+  width: 50%;
+  background: #ffffff;
+  padding: 24px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  border: 1px solid green;
+
+}
+.editor-left-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.editor-right {
+  width: 50%;
+  background: #f3f4f6;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid yellow;
+
+}
+.preview-frame {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  /* border: 1px solid #e5e7eb; */
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 24px;
+  height: calc(100vh - 48px);
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .editor-page {
+    flex-direction: column;
+  }
+  .editor-left,
+  .editor-right {
+    width: 100%;
+  }
+  .preview-frame {
+    height: auto;
+  }
+}
