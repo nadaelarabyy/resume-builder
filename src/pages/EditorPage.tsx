@@ -1,6 +1,5 @@
-import ResumeForm from "../features/personal-info/ResumeForm"
-import ResumePreview from "../features/preview/ResumePreview"
-import ProfilePreviewPage from "./ProfilePreviewPage"
+import ResumeForm from "../features/personal-info/ResumeForm.tsx"
+import ProfilePreviewPage from "./ProfilePreviewPage.tsx"
 
 export const EditorPage = () => {
   return (

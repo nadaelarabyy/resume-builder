@@ -1,4 +1,4 @@
-import { useResumeStore } from "../../store/useResumeStore"
+import { useResumeStore } from "../../store/useResumeStore.ts"
 
 const ResumeForm = () => {
   const { resume, updatePersonalInfo } = useResumeStore()

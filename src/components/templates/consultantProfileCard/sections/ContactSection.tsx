@@ -1,4 +1,4 @@
-import type { TemplateSection } from "../../../../types/template";
+import type { TemplateSection } from "../../../../types/template.ts";
 
 type Props = {
   section: TemplateSection;

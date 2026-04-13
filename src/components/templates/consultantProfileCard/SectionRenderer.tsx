@@ -1,10 +1,10 @@
-import type { TemplateSection } from '../../../types/template'
-import ProfileSection from "./sections/ProfileSection";
-import SummarySection from "./sections/SummarySection";
-import ContactSection from "./sections/ContactSection";
-import ListSection from "./sections/ListSection";
-import EngagementsSection from "./sections/EngagementSection";
-import ExperienceSection from "./sections/ExperienceSection";
+import type { TemplateSection } from '../../../types/template.ts'
+import ProfileSection from "./sections/ProfileSection.tsx";
+import SummarySection from "./sections/SummarySection.tsx";
+import ContactSection from "./sections/ContactSection.tsx";
+import ListSection from "./sections/ListSection.tsx";
+import EngagementsSection from "./sections/EngagementSection.tsx";
+import ExperienceSection from "./sections/ExperienceSection.tsx";
 
 type Props = {
   section: TemplateSection;

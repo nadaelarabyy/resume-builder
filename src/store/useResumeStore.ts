@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import type { Resume } from '../types/resume'
+import type { Resume } from '../types/resume.ts'
 
 interface ResumeState {
   resume: Resume

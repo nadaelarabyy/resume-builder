@@ -1,4 +1,4 @@
-import type { Resume } from "../types/resume"
+import type { Resume } from "../types/resume.ts"
 
 interface Props {
   resume: Resume

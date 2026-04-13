@@ -1,4 +1,4 @@
-import type { ConsultantProfileTemplate } from "../types/template";
+import type { ConsultantProfileTemplate } from "../types/template.ts";
 
 export const sampleProfile: ConsultantProfileTemplate = {
   templateType: "consultant_profile_card",

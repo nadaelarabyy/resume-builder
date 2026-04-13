@@ -1,5 +1,5 @@
-import ConsultantProfileCard from "../components/templates/consultantProfileCard/ConsultantProfileCard";
-import { sampleProfile } from "../data/sampleProfile";
+import ConsultantProfileCard from "../components/templates/consultantProfileCard/ConsultantProfileCard.tsx";
+import { sampleProfile } from "../data/sampleProfile.ts";
 
 export default function ProfilePreviewPage() {
   return (

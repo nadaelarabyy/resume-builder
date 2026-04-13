@@ -1,5 +1,5 @@
-import type { ConsultantProfileTemplate, TemplateSection } from "../../../types/template";
-import { SectionRenderer } from "./SectionRenderer";
+import type { ConsultantProfileTemplate, TemplateSection } from "../../../types/template.ts";
+import { SectionRenderer } from "./SectionRenderer.tsx";
 
 type Props = {
   template: ConsultantProfileTemplate;
