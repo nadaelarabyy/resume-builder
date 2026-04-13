@@ -1,4 +1,4 @@
-import { ConsultantProfileTemplate, TemplateSection } from "@/types/template";
+import type { ConsultantProfileTemplate, TemplateSection } from "../../../types/template";
 import { SectionRenderer } from "./SectionRenderer";
 
 type Props = {

@@ -1,5 +1,6 @@
 import ResumeForm from "../features/personal-info/ResumeForm"
 import ResumePreview from "../features/preview/ResumePreview"
+import ProfilePreviewPage from "./ProfilePreviewPage"
 
 export const EditorPage = () => {
   return (
@@ -12,7 +13,8 @@ export const EditorPage = () => {
 
       <section className="editor-right">
         <div className="preview-frame">
-          <ResumePreview />
+          {/* <ResumePreview /> */}
+          <ProfilePreviewPage />
         </div>
       </section>
     </div>

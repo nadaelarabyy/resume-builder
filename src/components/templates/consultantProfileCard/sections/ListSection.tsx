@@ -1,4 +1,4 @@
-import { TemplateSection } from "@/types/template";
+import type { TemplateSection } from "../../../../types/template";
 
 type Props = {
   section: TemplateSection;
